@@ -1,0 +1,57 @@
+html{
+    background-color: rgb(255, 49, 221);
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    background-image: url(images/horse.jpg);
+    background-repeat: repeat-x;
+    background-size: 5%;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: purple;
+    text-shadow: 4px 4px 1px blue;
+
+}
+
+body p, body section {
+    background-image: url(images/horse.jpg);
+    background-size: 20%;
+    height: 250px;
+}
+
+h1 {
+    font-size: 55px;
+}
+
+#animation {
+  width: 100px;
+  height: 100px;
+  background-image: url(images/ugly.jfif);
+  position: relative;
+  animation: mymove 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes mymove {
+    from {top: -1000px;}
+    to {top: 200px;}
+}
+
+.nav {
+    font-size: 100px;
+    background: red;
+    font-family: 'Papyrus', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    list-style-image: url("images/ugly_2.png");
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    font-size: 64px;
+    background: linear-gradient(23deg, red, rgb(17, 255, 17), pink, blue);
+}
